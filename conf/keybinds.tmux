@@ -42,7 +42,3 @@ bind-key -T copy-mode-vi i send-keys -X cancel
 bind-key -T copy-mode-vi Escape if-shell -F "#{selection_active}" "send-keys -X clear-selection" "send-keys -X cancel"
 bind-key -T copy-mode-vi C-e send-keys -X scroll-down -N 5
 bind-key -T copy-mode-vi C-y send-keys -X scroll-up -N 5
-bind-key -T copy-mode-vi C-h send-keys -X cancel
-bind-key -T copy-mode-vi C-j send-keys -X cancel
-bind-key -T copy-mode-vi C-k send-keys -X cancel
-bind-key -T copy-mode-vi C-l send-keys -X cancel

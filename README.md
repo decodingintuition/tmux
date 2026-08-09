@@ -23,6 +23,8 @@ git clone https://github.com/decodingintuition/tmux ~/.config/tmux
 ### Panes
 | Key | Action |
 |-----|---------|
+| `Ctrl + h/j/k/l` | Navigate Neovim splits and tmux panes |
+| `Ctrl + backslash` | Return to the previous split or pane |
 | `Prefix + h/j/k/l` | Navigate panes (Vim-style) |
 | `Prefix + \|` | Split vertically (preserve path) |
 | `Prefix + -` | Split horizontally (preserve path) |
